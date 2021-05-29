@@ -11,7 +11,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     let Econtent = document.querySelector('#e1');
     let EcontentPosition = Econtent.getBoundingClientRect().top;
-    let EscreenPosition = window.innerHeight / 2;
+    let EscreenPosition = window.innerHeight;
     if (EcontentPosition < EscreenPosition) {
         Econtent.classList.add('e-row-active');
     }
@@ -21,7 +21,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     let Econtent = document.querySelector('#e2');
     let EcontentPosition = Econtent.getBoundingClientRect().top;
-    let EscreenPosition = window.innerHeight / 2;
+    let EscreenPosition = window.innerHeight ;
     if (EcontentPosition < EscreenPosition) {
         Econtent.classList.add('e-row-active');
     }
@@ -31,7 +31,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     let Econtent = document.querySelector('#e3');
     let EcontentPosition = Econtent.getBoundingClientRect().top;
-    let EscreenPosition = window.innerHeight / 2;
+    let EscreenPosition = window.innerHeight ;
     if (EcontentPosition < EscreenPosition) {
         Econtent.classList.add('e-row-active');
     }
