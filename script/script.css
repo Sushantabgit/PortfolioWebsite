@@ -1,0 +1,165 @@
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ @keyframes zoomIn {
+    0% {transform:scale(5,5);}
+    100% {transform: scale(1,1);}
+ } 
+
+#hello{
+    animation: zoomIn linear 0.25s;
+    margin: 0;
+    color: white;
+    font-family: "Leckerli One", serif;
+    font-size: 150px;
+}
+#greet{
+    font-family: "Merienda", sans-serif;
+    color: white;
+    font-size: 20px;
+    animation: fadeIn linear 2s;
+    padding-bottom: 100px;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.greetings{
+    margin: 0;
+    text-align: center;
+    background-color: #0D0D0D;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#profile-pic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 10px solid white;
+}
+
+.aboutme{
+    background-color: #0D0D0D;
+    margin: auto;
+}
+.profile{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 70%;
+    margin: auto;
+    color: white;
+}
+
+.education{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:white;
+    width: 70%;
+}
+
+.abilities{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 20px;
+    width: 80%;
+}
+
+.skill{
+    padding-bottom: 50px;
+}
+
+.skill-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; 
+    transition: 500ms;
+}
+
+.skill-img:hover{
+    height: 125px;
+    width: 125px;
+}
+.education-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.e-row{
+    padding-top: 20px;
+}
+
+.contact{
+    padding-top: 100px;
+    font-family: "Noto Sans JP";
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+}
+.f-img{
+    height: 20px;
+    width: 20px;
+
+}
+
+.links{
+    color: white;
+}
+
+h2{
+    font-family: "Noto Sans JP";
+    font-weight: 900;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Noto Sans JP";
+    font-weight: 100px;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #0D0D0D;
+}
+
+p{
+
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+hr{
+    
+    border: 10px solid ;
+    margin: auto;
+    border-bottom: none;
+    border-radius: 5px;
+    border-color: grey;
+    width: 10%;
+}
+
+form{
+    margin-top: 50px;
+}
+
+.form-control{
+    color: white;
+    text-align: center;
+    width: 40%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey ;
+    margin: auto;
+}
