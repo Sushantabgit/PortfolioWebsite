@@ -126,6 +126,42 @@
     color: white;
 }
 
+.form-control{
+    color: white;
+    text-align: center;
+    width: 40%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey ;
+    margin: auto;
+}
+
+.projects{
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 20px;
+    width: 80%;
+}
+.card-container{
+    padding: 10px;
+}
+
+.card-text{
+    color: grey;
+}
+
+.card{
+    background-color: #0D0D0D;
+    transition: 500ms;
+}
+.card:hover{
+    background-color: rgb(29, 29, 29);
+
+}
+
 h2{
     font-family: "Noto Sans JP";
     font-weight: 900;
@@ -168,12 +204,3 @@ form{
     margin-top: 50px;
 }
 
-.form-control{
-    color: white;
-    text-align: center;
-    width: 40%;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid grey ;
-    margin: auto;
-}
