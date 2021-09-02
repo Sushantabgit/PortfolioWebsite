@@ -96,6 +96,12 @@
     width: 60px;
     border-radius: 50%;
     padding: 5px;
+    transition: 100ms;
+}
+
+.e-row:hover .education-img{
+    height: 100px;
+    width: 100px;
 }
 .e-row{
     opacity: 0;
