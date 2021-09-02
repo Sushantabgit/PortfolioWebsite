@@ -84,7 +84,7 @@
     height: 100px;
     width: 100px;
     border-radius: 50%; 
-    transition: 500ms;
+    transition: 100ms;
 }
 
 .skill-img:hover{
