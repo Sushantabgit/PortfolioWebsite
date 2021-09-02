@@ -152,7 +152,9 @@
     width: 80%;
 }
 .card-container{
-    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
 }
 
 .card-text{
