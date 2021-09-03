@@ -115,6 +115,10 @@
     transform: scale(1);
 }
 
+.ep{
+    color: grey;
+}
+
 .contact{
     padding-top: 100px;
     font-family: "Noto Sans JP";
