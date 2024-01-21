@@ -60,6 +60,15 @@ window.addEventListener('scroll', () => {
     }
 
 });
+window.addEventListener('scroll', () => {
+    let Econtent = document.querySelector('#e4');
+    let EcontentPosition = Econtent.getBoundingClientRect().top;
+    let EscreenPosition = window.innerHeight / 2;
+    if (EcontentPosition < EscreenPosition) {
+        Econtent.classList.add('e-row-active');
+    }
+
+});
 
 /* Project Cards Animation */
 
